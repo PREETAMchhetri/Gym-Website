@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness</title>
+    <link rel="stylesheet" href="/Project1/style.css" />
+  </head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <header>
+      <!-- For Left -->
+      <div class="left">
+        <img src="/Project1/image2.webp" alt="" />
+        <div>Preetam Fitness</div>
+      </div>
+
+      <!-- For Mid -->
+      <div class="mid">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Fitness Trainers</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <!-- For Right -->
+      <div class="right">
+        <button class="btn">Sign In</button>
+        <button class="btn">Register New User</button>
+      </div>
+    </header>
+
+    <div class="form">
+
+      <div class = "formContent1">
+        <label for="fName">First Name </label>
+        <input type="text" id="fName" placeholder="First Name" />
+      </div>
+
+      <div class = "formContent2">
+        <label for="lName">Last Name</label>
+        <input type="text" id="lName" placeholder="Last Name" />
+      </div>
+      <div class = "formContent3">
+        <form action="">
+          <label for="">Gender: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" name="icecream" value="Male" id="male" />
+          <label for="male"> Male</label>
+          <input type="radio" name="icecream" id="female" value="Female" />
+          <label for="female">Female</label>
+        </form>
+      </div>
+
+      <!-- <div><input type="radio" name="" id=""></div> -->
+      <div>
+        <label for="Email" id="EmAil">Email </label>
+        <input type="email" name="" id="Email" placeholder="Email Id" />
+      </div>
+
+      <div class="formContent4">
+        <label for="Number"> Contact <br/>Number</label>
+        <input type="tel" name="" id="Number" pattern="[+]{1}[0-9]{11,14}" required placeholder="Mobile Number"/>
+      </div>
+
+      <div class="Submit">
+        <button class="btn">Submit</button>
+      </div>
+
+
+    </div>
+  </body>
+</html>

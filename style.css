@@ -1,0 +1,140 @@
+* {
+  color: white;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+body {
+  margin: 0px;
+  /* height: 100vh;
+  width: 100vw; */
+  padding: 0px;
+  background: url("/Project1/image1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 45px;
+  top: 32px;
+  width: 108px;
+}
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+  width: 50%;
+  margin: 32px auto;
+}
+.right {
+  /* border: 2px solid yellow; */
+  display: inline-block;
+  position: absolute;
+  right: 45px;
+  top: 35px;
+}
+.left img {
+  width: 109px;
+  height: 76px;
+  border-radius: 41px;
+}
+.left div {
+  line-height: 19px;
+  font-size: 20px;
+  text-align: center;
+}
+.mid ul a {
+  text-decoration: none;
+}
+
+.mid li {
+  display: inline-block;
+  padding: 1px;
+  font-size: 24px;
+  margin: 8px;
+}
+.btn {
+  color: rgb(168, 164, 164);
+  font-family: "Baloo Bhaina 2", cursive;
+  border-radius: 15px;
+  border: black;
+  background-color: rgb(41, 40, 40);
+  padding: 8px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+}
+.mid li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+.form input {
+  color: black;
+}
+
+.form {
+  border: 2px solid white;
+  width: 33%;
+  position: absolute;
+  top: 208px;
+  left: 30px;
+  padding: 40px;
+  background-color: rgb(13, 14, 42);
+  margin: 5px auto;
+}
+.form label {
+  color: rgb(240, 152, 152);
+  margin: 3px;
+}
+.form div {
+  display: block;
+  padding: 3px;
+  width: auto;
+  margin: auto;
+}
+#fName {
+  width: 63%;
+}
+#lName {
+  width: 63%;
+}
+.formContent2 label {
+  padding: 1px;
+}
+#EmAil {
+  padding-right: 37px;
+}
+input#Email {
+  width: 63%;
+}
+
+.formContent4 label {
+  display: inline-block;
+  width: 17%;
+  line-height: 15px;
+  padding-top: 3px;
+}
+.formContent4 {
+  padding-top: 5px;
+}
+
+.formContent4 input {
+  display: inline;
+  width: 63%;
+  padding-top: 5px;
+}
+
+.form div {
+  margin-bottom: 4px;
+}
+.Submit button {
+  display: block;
+  width: 25%;
+  margin: 20px auto;
+  font-size: 17px;
+  background-color: black;
+}
